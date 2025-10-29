@@ -2,102 +2,135 @@
 <html lang="en-ca">
   <head>
     <!-- Created By Tandeep Phalora on October 29th -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=WDXL+Lubrifont+SC&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     <title>Exercise 7: Typography </title>
     <meta charset="utf-8">
     <!--This receipe is taken from https://cooking.nytimes.com/recipes/1012494-spinach-tofu-and-sesame-stir-fry -->
     <style>
       body {
-        background-color: #E4FFED;
-        font-family: "Open Sans", sans-serif;
-        font-optical-sizing: auto;
+        background-color: #E2FFDE;
         font-weight: 400;
-        font-style: normal;
-        font-variation-settings: "wdth" 100;
-        font-size: 16px;
-        width: 960px;
-        margin: auto;
+        width: 950px;
+      }
+
+      img {
+        width: 520px;
       }
 
       h1 {
         font-family: "Oswald", sans-serif;
-        font-size: 30px;
+        letter-spacing: -1px;
+        font-size: 35ems;
         font-weight: 400;
         font-style: normal;
-        color: black;
+        color: #254522;
         padding: 1px;
+        display: inline;
+        text-transform: uppercase;
       }
 
       h2 {
-        font-family: "Oswald", sans-serif;
-        font-size: 20px;
+        font-family: "Oswald", Helvetica, sans-serif;
+        line-height: 1.5;
+        font-size: 24ems;
         font-weight: 400;
         font-style: normal;
-        color: black;
+        color: #254522;
         padding: 1px;
       }
 
       h3 {
-        font-family: "Oswald", sans-serif;
-        font-size: 15px;
+        font-family: "WDXL Lubrifont SC", Helvetica, sans-serif;
+        font-size: 20ems;
         font-weight: 400;
         font-style: normal;
-        color: black;
+        color: #254522;
         padding: 1px;
       }
 
       p {
-        font-family: "Oswald", sans-serif;
-        font-size: 15px;
-        font-weight: 400;
+        font-family: "WDXL Lubrifont SC", Helvetica, sans-serif;
+        font-size: 15ems;
         font-style: normal;
         color: black;
         padding: 1px;
       }
 
+      ul {
+        font-family: "WDXL Lubrifont SC", Helvetica, sans-serif;
+        font-size: 15ems;
+        color: black;
+      }
+
+
       .container {
-        gap: 40px;
-        width: 1200px;
+        display: grid;
+        grid-template-columns: 30% 50%;
+        gap: 1px;
         margin: 0 auto;
+
 
       }
 
-      img {
-        width: 400px;
+      .grid-item {
+        width: 300px;
+      }
+
+      .grid-item p {
+        width: 520px;
       }
     </style>
   </head>
 
   <body>
+    <div class="container">
+      <div class="grid-item">
+        <h1> Spinach, Tofu and Sesame Stir-Fry
+        </h1>
+        <h2> By: Martha Rose Shulman </h2>
+        <h2>Yield: 3 Servings </h2>
+      </div>
 
-    <h1> Spinach, Tofu and Sesame Stir-Fry
-    </h1>
-   <h2>
-     By: Martha Rose Shulman
-    Yield: 3 Servings     </h2> 
+      <div class="grid-item">
+        <img src="recipe.jpg" alt="plate of Tofu and veggies with sesame seeds">
+      </div>
 
-    <img src="recipe.jpg" alt="plate of Tofu and veggies with sesame seeds">
+      <div class="grid-item">
+        <h2> Ingredients </h2>
+        <p>
+        <ul>
+          <li>1 tablespoon canola oil </li>
+          <li>½ pound tofu, cut in small dice </li>
+          <li>1 large garlic clove, minced </li>
+          <li>1 teaspoon grated or minced fresh ginger </li>
+          <li>¼ teaspoon red chili flakes </li>
+          <li>Soy sauce to taste </li>
+          <li> 16-ounce bag baby spinach, rinsed </li>
+          <li>2 tablespoons toasted sesame seeds </li>
+          <li> 1 teaspoon sesame oil</li>
+        </ul>
+        </p>
+      </div>
 
- <h2> Ingredients </h2>
+      <div class="grid-item">
+        <h2> Preparation </h2>
 
-    1 tablespoon canola oil
-    ½ pound tofu, cut in small dice
-    1 large garlic clove, minced
-    1 teaspoon grated or minced fresh ginger
-    ¼ teaspoon red chili flakes
-    Soy sauce to taste
-    16-ounce bag baby spinach, rinsed
-    2 tablespoons toasted sesame seeds
-    1 teaspoon sesame oil
+        <h3> Step 1 </h3>
+        <p> Heat the canola oil over medium-high heat in a large nonstick skillet or wok, and add the tofu. Stir-fry until the tofu is lightly colored, three to five minutes, and add the garlic, ginger and chili flakes. Cook, stirring, until fragrant, about one minute, and add soy sauce to taste. Add the spinach and stir-fry until the spinach wilts, about one minute. Stir in the sesame seeds, and add more soy sauce to taste. Remove from the heat. </p>
 
-    Preparation
+        <h3> Step 2 </h3>
+        <p>Using tongs, transfer the spinach and tofu mixture to a serving bowl, leaving the liquid behind in the pan or wok. Drizzle with the sesame oil, and add more soy sauce as desired. Serve with rice or other grains, or noodles. You may also use it as a filling for whole wheat pita bread. </p>
 
-    Step 1
-    Heat the canola oil over medium-high heat in a large nonstick skillet or wok, and add the tofu. Stir-fry until the tofu is lightly colored, three to five minutes, and add the garlic, ginger and chili flakes. Cook, stirring, until fragrant, about one minute, and add soy sauce to taste. Add the spinach and stir-fry until the spinach wilts, about one minute. Stir in the sesame seeds, and add more soy sauce to taste. Remove from the heat.
+        <h3> Tip </h3>
+        <p> Advance preparation: This is a last-minute preparation, but you can have your ingredients prepared well in advance. </p>
+      </div>
+    </div>
 
-    <h3> Step 2 </h3>
-    Using tongs, transfer the spinach and tofu mixture to a serving bowl, leaving the liquid behind in the pan or wok. Drizzle with the sesame oil, and add more soy sauce as desired. Serve with rice or other grains, or noodles. You may also use it as a filling for whole wheat pita bread.
-
-    Tip
-    Advance preparation: This is a last-minute preparation, but you can have your ingredients prepared well in advance.
   </body>
 </html>
